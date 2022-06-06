@@ -32,5 +32,5 @@ app.get('/explorers/:explorer', (req, res) => {
 
 // Con esto inicializamos esta app
 app.listen(port, () => {
-    console.log('Server is running')
+    console.log('Server is running on port ${port}')
 }) //control C para parar o servidor
